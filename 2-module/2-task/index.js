@@ -1,3 +1,7 @@
 function isEmpty(obj) {
-  // ваш код...
+  let sum = 0;
+  for (let key in obj) {
+    sum++;
+  }
+  return 0 === sum;
 }
